@@ -1,7 +1,5 @@
 package com.cursomc.resources;
 
-
-
 import java.util.ArrayList;
 import java.util.List;
 
