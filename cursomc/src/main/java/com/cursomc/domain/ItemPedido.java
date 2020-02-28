@@ -61,7 +61,7 @@ public class ItemPedido implements Serializable {
         this.preco = preco;
     }
 
-    @JsonIgnore
+    @JsonIgnore //pois não é para pegar o pedido
     public Pedido getPedido(){
         return id.getPedido();
     }
